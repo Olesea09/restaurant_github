@@ -1,0 +1,33 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.category {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+.dishes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.dish {
+    background-color: #fff;
+    border-left: 5px solid #007BFF;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.price {
+    float: right;
+    font-weight: bold;
+}

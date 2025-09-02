@@ -1,0 +1,280 @@
+h1{
+    font-family: cursive;
+    text-align: center;
+    color: rgb(53, 101, 101);
+    font-size: 50px;
+  }
+  p{
+    font-size: 20px;
+  }
+  .section1 {
+    text-align: center;
+    color: rgb(53, 101, 101);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color:#e0d9d2;
+    padding-top: 10px;
+  }
+  
+  header {
+    background-color: #de8282;
+    color: #fff;
+    padding: 5px 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-top: 5px;
+  }
+  
+  .carousel {
+    position: relative;
+    margin: 0 auto;
+    max-width: 850px;
+    overflow: hidden;
+  }
+  
+  .carousel-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    height: 510px;
+    flex: 0 0 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+  }
+  
+  
+  #slide1 {
+    background-image: url("image1_1.JPG");
+    border-radius: 10px;
+  
+  }
+  
+  #slide2 {
+    background-image: url("image4.JPG");
+    border-radius: 10px;
+  }
+  
+  #slide3 {
+    background-image: url("image5.JPG");
+    border-radius: 10px;
+  }
+  
+  #slide4 {
+    background-image: url("image2.JPG");
+    border-radius: 10px;
+  }
+  
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+  
+  .logo {
+    font-size: 1.8em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    margin-left: 15px;
+  }
+  
+  
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+  }
+  
+  .nav-links a:hover {
+    color: rgb(242, 159, 159);
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 3px 0;
+    height: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+  }
+  
+  .apropos {
+    text-align: center; /* Centrer le h2 dans la section */
+  }
+  
+  h2 {
+    text-align: center;
+    margin-top: 100px;
+    color:rgb(53, 101, 101);
+    font-family: cursive;
+  }
+  
+  #nous {
+    margin-top: 40px;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+  }
+  
+  /* Pour le conteneur du texte dans le col-12 col-md-4 */
+  .col-12.col-md-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    
+  }
+  
+  .col-12.col-md-8 {
+    margin-top: 60px;
+  }
+  
+  /* Ajuster la largeur du paragraphe */
+  #nous {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Pour l'image dans le col-12 col-md-4 */
+  .col-12.col-md-4 img {
+    max-width: 100%; /* Assurez-vous que l'image ne dépasse pas la largeur du conteneur */
+    height: auto;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  
+  .sirop li {
+   list-style: none;
+  }
+  
+  #chocolat{
+    background-color: rgb(94, 64, 44);
+  }
+  #noisette{
+    background-color: #7e5e49;
+  }
+  #caramel{
+    background-color: #926839;
+  }
+  #pistache{
+    background-color: #A3966A;
+  }
+  #fruits_rouges{
+    background-color: rgb(176, 94, 94);
+  }
+  #chataigne{
+    background-color: #83624a;
+  }
+  #pumpkin_pie{
+    background-color: #ae7f49;
+  }
+  #vanille{
+    background-color:#F0DAAE;
+  }
+  #cannelle{
+    background-color: #8a673f;
+  }
+  #spéculoos{
+    background-color: rgb(193, 137, 85);
+  }
+  #cookie_chocolat{
+    background-color: #d8ae7f;
+  }
+  #praline{
+    background-color: #a58670;
+  }
+  .sirop{
+    text-align: center;
+    margin-right: 40px;
+    line-height: 2;
+    width: 80%;
+  }
+  
+  .lait li{
+    list-style: none;
+  }
+  
+  #classique{
+    background-color: #e5d5c5;
+  }
+  
+  #amande{
+    background: #bda995;
+  }
+  #amande_grille{
+    background-color: #aa8f74;
+  }
+  #coco{
+    background-color: #e0cebd;
+  }
+  #banane{
+    background-color: #e9da85;
+  }
+  #avoine{
+    background-color: #d4c48c;
+  }
+  #riz{
+    background-color: rgb(231, 226, 213)
+  }
+  #pois_chiches{
+    background-color: #c4ae97;
+  }
+  #chocolat_noisette{
+    background-color: #695547;
+  }
+  #soja{
+    background-color: #d4be9b;
+  }
+  #noix_de_cajou{
+    background-color: #a78a77;
+  }
+  .lait{
+    text-align: center;
+    margin-right: 40px;
+    line-height: 2;
+    width: 80%;
+  }
+  
+  li {
+    max-width: 500px; /* Ajustez la valeur selon vos préférences */
+    
+  }

@@ -1,0 +1,14 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:#e0d9d2;
+    text-align: justify;
+}
+
+.section-contact {
+    padding: 10px 0 60px;
+    text-align: center;
+    color: rgb(53, 101, 101);
+    margin-top: -30px;
+    
+}
+
